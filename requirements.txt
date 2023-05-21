@@ -1,7 +1,6 @@
 streamlit 
 numpy 
 pandas 
-joblib 
-PIL 
+joblib  
 deep_translator 
 
