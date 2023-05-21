@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd 
 import joblib 
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 from deep_translator import GoogleTranslator
 
 
@@ -12,8 +12,8 @@ st.write("Bienvenue !  \nCeci est une application créée dans le cadre d'un pro
 st.title("Votre Vêtement est-il éco-responsable ? :jeans: :necktie: :dress: ")
 st.subheader("Voyons-voir comment l'Intelligence Artificielle nous permet de répondre.")
 
-image = Image.open('eco_fashion.jpg')
-st.image(image, caption='Eco Fashion.')
+#image = Image.open('eco_fashion.jpg')
+#st.image(image, caption='Eco Fashion.')
 
 
 
